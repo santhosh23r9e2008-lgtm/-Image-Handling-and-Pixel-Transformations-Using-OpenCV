@@ -1,1 +1,1 @@
-# -Image-Handling-and-Pixel-Transformations-Using-OpenCV
+# Image-Handling-and-Pixel-Transformations-Using-OpenCV
