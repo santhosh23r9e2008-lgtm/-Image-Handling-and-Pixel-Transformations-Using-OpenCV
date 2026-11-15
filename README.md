@@ -10,7 +10,7 @@ To perform image handling and pixel transformations using OpenCV in Python, incl
 - Jupyter Notebook
 - OpenCV (`cv2`)
 - Matplotlib
-- Input image (`ex.jpg`)
+- Input image (`image.jpeg`)
 
 ### Procedure :
 1. Import the required libraries, OpenCV and Matplotlib.
@@ -32,7 +32,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Read the image using OpenCV
-img = cv2.imread('ex.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('image.jpeg', cv2.IMREAD_COLOR)
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)# Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
@@ -50,7 +50,7 @@ plt.show()
   
 ```python
 # Load the image
-image = cv2.imread('ex.jpg')
+image = cv2.imread('image.jpeg')
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -68,7 +68,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('ex.jpg') 
+image = cv2.imread('image.jpeg') 
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -87,7 +87,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('ex.jpg') 
+image = cv2.imread('image.jpeg') 
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -107,7 +107,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('ex.jpg') 
+image = cv2.imread('image.jpeg') 
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -125,7 +125,7 @@ plt.show()
 * Convert the image from RGB to HSV and display it.
 
 ```python
-image = cv2.imread('ex.jpg')
+image = cv2.imread('image.jpeg')
 
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
@@ -197,7 +197,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('ex.jpg')
+image = cv2.imread('image.jpeg')
 
 image.shape
 
@@ -219,7 +219,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('ex.jpg')
+image = cv2.imread('image.jpeg')
 
 image.shape
 
@@ -241,7 +241,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('ex.jpg')
+image = cv2.imread('image.jpeg')
 
 # Flip the image horizontally (left-right)
 flipped_horizontally = cv2.flip(image, 1)
